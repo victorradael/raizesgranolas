@@ -1,0 +1,44 @@
+.container {
+  padding-bottom: 3rem;
+}
+
+.history {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 3rem;
+
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.border_right {
+  border-right: 0.6rem solid #867265;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 3rem;
+
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.border_left {
+  border-left: 0.6rem solid #30601b;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 3rem;
+
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}

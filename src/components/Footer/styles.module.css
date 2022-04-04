@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  color: #fcfaf0;
+  justify-content: center;
+  align-items: center;
+  background-color: #867265;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}

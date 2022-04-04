@@ -9,10 +9,11 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  padding: 0rem 3rem;
 
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
+  line-height: clamp(1.6em, 1.6em + 1vw, 2em);
+  margin: 0;
+  padding: 1% 6%;
 }
 
 .border_right {
@@ -23,10 +24,11 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  padding: 0rem 3rem;
 
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
+  line-height: clamp(1.6em, 1.6em + 1vw, 2em);
+  margin: 0;
+  padding: 1% 6%;
 }
 
 .border_left {
@@ -37,8 +39,9 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  padding: 0rem 3rem;
 
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
+  line-height: clamp(1.6em, 1.6em + 1vw, 2em);
+  margin: 0;
+  padding: 1% 6%;
 }

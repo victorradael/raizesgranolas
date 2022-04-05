@@ -10,7 +10,7 @@ const History: NextComponentType = () => {
       </p>
       <p className={styles.history}>
         Um ano depois foram criadas as granolas Raízes, feitas com ingredientes
-        seliecionados e um sabor sem igual!
+        selecionados e um sabor sem igual!
       </p>
       <p className={styles.border_left}>
         Sua aprovação foi tão grande que deixou de ser apenas a granola da casa

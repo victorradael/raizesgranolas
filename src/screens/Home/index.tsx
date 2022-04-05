@@ -6,6 +6,7 @@ import Header from "../../components/Header";
 import Content from "../../components/Content";
 import History from "../../components/History";
 import Grid from "../../components/Grid";
+import Granola from "../../components/Granola";
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +22,8 @@ const Home: NextPage = () => {
         <Content>
           <History />
           <Grid />
+          <Granola type="tradicional"/>
+          <Granola type="salgada"/>
         </Content>
       </Main>
     </div>

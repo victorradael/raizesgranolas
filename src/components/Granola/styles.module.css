@@ -1,0 +1,23 @@
+.container {
+  padding: 3rem 0rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+  padding-top: 5rem;
+  color: #867265;
+  font-weight: 400;
+}
+
+.text {
+  font-size: sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 0 5vw;
+  color: #30601b;
+}

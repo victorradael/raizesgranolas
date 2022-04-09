@@ -7,6 +7,7 @@ import Content from "../../components/Content";
 import History from "../../components/History";
 import Grid from "../../components/Grid";
 import Granola from "../../components/Granola";
+import Conditions from "../../components/conditions";
 
 const Home: NextPage = () => {
   return (
@@ -21,9 +22,12 @@ const Home: NextPage = () => {
       <Main>
         <Content>
           <History />
-          <Grid />
+          <Grid folder="images2" format="jpeg"/>
           <Granola type="tradicional"/>
+          <Conditions/>
           <Granola type="salgada"/>
+          <Conditions/>
+          <Grid folder="images" format="png"/>
         </Content>
       </Main>
     </div>

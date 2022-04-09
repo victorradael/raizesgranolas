@@ -21,7 +21,7 @@ const Granola = ({ ...props}) => {
       <h2 className={styles.subtitle}>ingredientes</h2>
         <p className={styles.text}>
         amêndoas + aveia em flocos + azeite extra virgem + castanha de caju + castanha do Pará + chimichurri + flor de sal + gergelim + melado de cana + páprica picante + semente de abóbora.
-        </p>
+        </p> 
       </div>
     )
   }

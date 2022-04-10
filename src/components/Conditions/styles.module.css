@@ -18,14 +18,22 @@
   align-items: center;
   justify-content: center;
 
+  text-decoration: overline;
+  text-decoration-color: var(--secondary-color);
+
   color: var(--primary-color);
 }
 
-.image {
+.image path {
   transition: 0.1s;
+  border-radius: 51%;
+  margin: 3rem auto;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px var(--background-color) !important;
+  color: red !important;
 }
 
-.image:hover {
-  border-radius: 50%;
+.image:hover path {
   border: solid 2px var(--secondary-color) !important;
 }

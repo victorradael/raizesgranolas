@@ -19,7 +19,7 @@
 }
 
 .border_right {
-  border-right: 0.6rem solid #867265;
+  border-right: 0.6rem solid var(--primary-color);
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -36,7 +36,7 @@
 }
 
 .border_left {
-  border-left: 0.6rem solid #30601b;
+  border-left: 0.6rem solid var(--secondary-color);
   display: flex;
   flex: 1;
   flex-direction: column;

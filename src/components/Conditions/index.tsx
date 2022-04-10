@@ -15,29 +15,29 @@ const Conditions: NextComponentType = () => {
     <>
       <div className={styles.conditions}>
         <Handcrafted
-          size="4rem"
+          size="2.9rem"
           onMouseEnter={() => setInfo("Produzido Artesanalmente")}
           onMouseLeave={() => setInfo("")}
         />
         <Vegan
-          size="4rem"
+          size="2.9rem"
           onMouseEnter={() => setInfo("Vegano")}
           onMouseLeave={() => setInfo("")}
         />
         <CaneMolasses
-          size="4rem"
+          size="2.9rem"
           onMouseEnter={() => setInfo("Adoçado com melado de cana")}
           onMouseLeave={() => setInfo("")}
         />
 
         <NoPreservatives
-          size="4rem"
+          size="2.9rem"
           onMouseEnter={() => setInfo("Sem conservantes")}
           onMouseLeave={() => setInfo("")}
         />
 
         <NoTransFat
-          size="4rem"
+          size="2.9rem"
           onMouseEnter={() => setInfo("Sem gordura trans")}
           onMouseLeave={() => setInfo("")}
         />

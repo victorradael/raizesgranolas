@@ -6,6 +6,8 @@
 
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .subtitle {
@@ -13,6 +15,7 @@
   padding: 4rem 0 1rem;
   color: var(--primary-color);
   font-weight: 400;
+  box-sizing: border-box;
 }
 
 .text {
@@ -25,4 +28,5 @@
   line-height: 2rem;
   padding: 0 5vw 5rem;
   color: var(--secondary-color);
+  box-sizing: border-box;
 }

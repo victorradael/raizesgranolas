@@ -1,6 +1,7 @@
 import { NextComponentType } from "next";
 import Image from "next/image";
 import { useState } from "react";
+import Vegan from "../Icons/Vegan";
 import styles from "./styles.module.css";
 
 const Conditions: NextComponentType = () => {
@@ -15,6 +16,11 @@ const Conditions: NextComponentType = () => {
           width={70}
           src="/icons/1.svg"
           alt="Imagem 1"
+          onMouseEnter={() => setInfo("Produzido Artesanalmente")}
+          onMouseLeave={() => setInfo("")}
+        />
+        <Vegan
+          size="4rem"
           onMouseEnter={() => setInfo("Produzido Artesanalmente")}
           onMouseLeave={() => setInfo("")}
         />
@@ -51,6 +57,7 @@ const Conditions: NextComponentType = () => {
 
         <Image
           className={styles.image}
+          itemType="svg"
           height={70}
           width={70}
           src="/icons/5.svg"

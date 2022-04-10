@@ -1,6 +1,10 @@
 import { NextComponentType } from "next";
 import Image from "next/image";
 import { useState } from "react";
+import CaneMolasses from "../Icons/CaneMolasses";
+import Handcrafted from "../Icons/Handcrafted";
+import NoPreservatives from "../Icons/NoPreservatives";
+import NoTransFat from "../Icons/NoTransFat";
 import Vegan from "../Icons/Vegan";
 import styles from "./styles.module.css";
 
@@ -10,58 +14,30 @@ const Conditions: NextComponentType = () => {
   return (
     <>
       <div className={styles.conditions}>
-        <Image
-          className={styles.image}
-          height={70}
-          width={70}
-          src="/icons/1.svg"
-          alt="Imagem 1"
+        <Handcrafted
+          size="4rem"
           onMouseEnter={() => setInfo("Produzido Artesanalmente")}
           onMouseLeave={() => setInfo("")}
         />
         <Vegan
           size="4rem"
-          onMouseEnter={() => setInfo("Produzido Artesanalmente")}
-          onMouseLeave={() => setInfo("")}
-        />
-
-        <Image
-          className={styles.image}
-          height={70}
-          width={70}
-          src="/icons/2.svg"
-          alt="Imagem 2"
           onMouseEnter={() => setInfo("Vegano")}
           onMouseLeave={() => setInfo("")}
         />
-
-        <Image
-          className={styles.image}
-          height={70}
-          width={70}
-          src="/icons/3.svg"
-          alt="Imagem 3"
+        <CaneMolasses
+          size="4rem"
           onMouseEnter={() => setInfo("Adoçado com melado de cana")}
           onMouseLeave={() => setInfo("")}
         />
 
-        <Image
-          className={styles.image}
-          height={70}
-          width={70}
-          src="/icons/4.svg"
-          alt="Imagem 4"
+        <NoPreservatives
+          size="4rem"
           onMouseEnter={() => setInfo("Sem conservantes")}
           onMouseLeave={() => setInfo("")}
         />
 
-        <Image
-          className={styles.image}
-          itemType="svg"
-          height={70}
-          width={70}
-          src="/icons/5.svg"
-          alt="Imagem 5"
+        <NoTransFat
+          size="4rem"
           onMouseEnter={() => setInfo("Sem gordura trans")}
           onMouseLeave={() => setInfo("")}
         />

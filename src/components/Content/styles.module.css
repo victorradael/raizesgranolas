@@ -3,6 +3,7 @@
   max-width: 50rem;
   padding: 4rem 0rem;
   display: flex;
+  box-sizing: border-box;
 
   flex-direction: column;
   justify-content: center;

@@ -1,0 +1,13 @@
+.image path {
+  transition: 0.1s;
+  border-radius: 51%;
+  margin: 3rem auto;
+  align-items: center;
+  justify-content: center;
+  fill: var(--primary-color);
+  transition: 0.4s;
+}
+
+.image:hover path {
+  fill: var(--secondary-color);
+}

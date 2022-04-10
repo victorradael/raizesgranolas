@@ -8,6 +8,8 @@ import History from "../../components/History";
 import Grid from "../../components/Grid";
 import Granola from "../../components/Granola";
 import Resell from "../../components/Resell";
+import Frase from "../../components/Frase";
+import BeReseller from "../../components/BeReseller";
 
 const Home: NextPage = () => {
   return (
@@ -26,6 +28,8 @@ const Home: NextPage = () => {
           <Granola type="tradicional" />
           <Granola type="salgada" />
           <Grid folder="images" format="png" />
+          <Frase />
+          <BeReseller />
           <Resell
             label="Revender"
             text="Olá, gostaria de revender as Granolas Raízes!"

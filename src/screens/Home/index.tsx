@@ -24,10 +24,18 @@ const Home: NextPage = () => {
       <Main>
         <Content>
           <History />
-          <Grid folder="images2" format="png" />
+          <Grid
+            folder="images2"
+            format="png"
+            link="https://www.instagram.com/nativanaturalbowls/"
+          />
           <Granola type="tradicional" />
           <Granola type="salgada" />
-          <Grid folder="images" format="png" />
+          <Grid
+            folder="images"
+            format="png"
+            link="https://www.instagram.com/raizes.granolas/"
+          />
           <Frase />
           <Resell
             label="Seja um revendedor"

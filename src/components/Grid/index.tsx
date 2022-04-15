@@ -1,14 +1,11 @@
 import type { NextComponentType } from "next/types";
 import Image from "next/image";
 import styles from "./styles.module.css";
+import Instagram from "../Icons/Instagram";
 
 const Grid = ({ ...props }) => {
   return (
-    <a
-      href="https://www.instagram.com/raizes.granolas/"
-      target="_blank"
-      rel="noreferrer"
-    >
+    <a href={props.link} target="_blank" rel="noreferrer">
       <div className={styles.grid}>
         <Image
           height={200}
@@ -65,7 +62,7 @@ const Grid = ({ ...props }) => {
           alt="Imagem 9"
         />
       </div>
-      <span className={styles.insta}>@raizes.granolas</span>
+      <Instagram />
     </a>
   );
 };

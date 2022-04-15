@@ -29,9 +29,8 @@ const Home: NextPage = () => {
           <Granola type="salgada" />
           <Grid folder="images" format="png" />
           <Frase />
-          <BeReseller />
           <Resell
-            label="Revender"
+            label="Seja um revendedor"
             text="Olá, gostaria de revender as Granolas Raízes!"
           />
         </Content>

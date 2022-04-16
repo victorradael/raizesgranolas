@@ -4,7 +4,7 @@ const History: NextComponentType = () => {
   return (
     <article className={styles.container}>
       <p className={styles.border_right}>
-        Em 2019 surgiu a Nativa Natural, uma casa de açaí e smoothi e bowls 100%
+        Em 2019 surgiu a Nativa Natural, uma casa de açaí e smoothie bowls 100%
         naturais, que precisava de uma granola especial para ser servida como
         acompanhamento.
       </p>

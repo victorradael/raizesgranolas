@@ -1,11 +1,10 @@
-import { NextComponentType } from "next";
-import Image from "next/image";
+import Title from "../Title";
 import styles from "./styles.module.css";
 
 const Header = ({ ...props }) => {
   return (
     <header className={styles.header}>
-      <Image src="/logo.svg" width={600} height={600} alt="Raízes Logo" />
+      <Title />
       <h1>{props.subtitle}</h1>
     </header>
   );

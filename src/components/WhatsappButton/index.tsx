@@ -8,7 +8,7 @@ const WhatsAppButton = ({ ...props }) => {
       target="_blank"
       rel="noreferrer"
     >
-      {props.label}
+      <div>{props.label}</div>
     </a>
   );
 };

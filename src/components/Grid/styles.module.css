@@ -4,15 +4,3 @@
   gap: 1rem;
   padding: 0 1rem;
 }
-
-.insta {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 1rem;
-  color: var(--secondary-color);
-  font-size: 1rem;
-
-  padding: 0 1rem 0 0;
-}

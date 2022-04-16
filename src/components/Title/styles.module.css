@@ -1,0 +1,13 @@
+.title svg {
+  width: 100%;
+  max-width: 50rem;
+  height: 50vh;
+}
+
+.title svg path:first-child {
+  fill: var(--primary-color);
+}
+
+.title svg path:last-child {
+  fill: var(--background-color);
+}

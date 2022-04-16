@@ -1,5 +1,4 @@
 import { NextComponentType } from "next";
-import Image from "next/image";
 import { useState } from "react";
 import CaneMolasses from "../Icons/CaneMolasses";
 import Handcrafted from "../Icons/Handcrafted";

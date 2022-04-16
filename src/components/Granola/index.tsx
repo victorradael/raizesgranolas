@@ -2,18 +2,15 @@ import Image from "next/image";
 import WhatsappButton from "../WhatsappButton";
 import Conditions from "../Conditions";
 import styles from "./styles.module.css";
+import TradicionalGranola from "../TradicionalGranola";
+import SaltGranola from "../SaltGranola";
 
 const Granola = ({ ...props }) => {
   if (props.type === "tradicional") {
     return (
       <div className={styles.container}>
-        <Image
-          width={600}
-          height={200}
-          src="/granolatradicional.svg"
-          alt="Granola Tradicional"
-        />
-        <h2 className={styles.subtitle}>ingredientes</h2>
+        <TradicionalGranola />
+        <h2 className={styles.subtitle}>INGREDIENTES</h2>
         <p className={styles.text}>
           amêndoas <b>+</b> aveia em flocos <b>+</b> castanha de caju <b>+</b>{" "}
           coco em lascas <b>+</b> extrato de baunilha <b>+</b> flor de sal{" "}
@@ -23,7 +20,7 @@ const Granola = ({ ...props }) => {
         <Conditions />
         <WhatsappButton
           text="Olá, gostaria de fazer minha encomenda de granola Raízes Tradicional!"
-          label="Comprar"
+          label="Compre já a sua!"
         />
       </div>
     );
@@ -32,13 +29,8 @@ const Granola = ({ ...props }) => {
   if (props.type === "salgada") {
     return (
       <div className={styles.container}>
-        <Image
-          width={600}
-          height={200}
-          src="/granolasalgada.svg"
-          alt="Granola Salgada"
-        />
-        <h2 className={styles.subtitle}>ingredientes</h2>
+        <SaltGranola />
+        <h2 className={styles.subtitle}>INGREDIENTES</h2>
         <p className={styles.text}>
           amêndoas <b>+</b> aveia em flocos <b>+</b> azeite extra virgem{" "}
           <b>+</b> castanha de caju <b>+</b> castanha do Pará <b>+</b>{" "}
@@ -48,7 +40,7 @@ const Granola = ({ ...props }) => {
         <Conditions />
         <WhatsappButton
           text="Olá, gostaria de fazer minha encomenda de granola Raízes Salgada!"
-          label="Comprar"
+          label="Compre já a sua!"
         />
       </div>
     );

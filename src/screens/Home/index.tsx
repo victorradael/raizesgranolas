@@ -41,6 +41,10 @@ const Home: NextPage = () => {
             label="Seja um revendedor"
             text="Olá, gostaria de revender as Granolas Raízes!"
           />
+          <Resell
+            label="Fale conosco"
+            text="Olá, gostaria de fazer contato com as Granolas Raízes!"
+          />
         </Content>
       </Main>
     </div>

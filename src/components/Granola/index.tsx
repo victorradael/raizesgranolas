@@ -20,7 +20,7 @@ const Granola = ({ ...props }) => {
         <Conditions />
         <WhatsappButton
           text="Olá, gostaria de fazer minha encomenda de granola Raízes Tradicional!"
-          label="Comprar"
+          label="Compre já a sua!"
         />
       </div>
     );
@@ -40,7 +40,7 @@ const Granola = ({ ...props }) => {
         <Conditions />
         <WhatsappButton
           text="Olá, gostaria de fazer minha encomenda de granola Raízes Salgada!"
-          label="Comprar"
+          label="Compre já a sua!"
         />
       </div>
     );

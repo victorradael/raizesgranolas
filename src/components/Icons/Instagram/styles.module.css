@@ -2,6 +2,7 @@
   padding: 0.4rem 2rem;
 
   border: 0.3rem solid var(--primary-color);
+  background-color: var(--primary-color);
   border-radius: 0.2rem;
   font-weight: 500;
   color: var(--secondary-color);
@@ -12,13 +13,13 @@
   transition-duration: 0.4s;
   overflow: hidden;
   cursor: pointer;
-  margin: 0.4rem 1rem;
+  margin: 1rem 1rem;
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: var(--primary-color);
-  color: var(--background-color);
+  background-color: var(--light-primary-color);
+  border-color: var(--light-primary-color);
 }
 
 .image {
@@ -27,7 +28,7 @@
 }
 
 .image path {
-  fill: var(--secondary-color);
+  fill: var(--background-color);
   transition: 0.4s;
 }
 

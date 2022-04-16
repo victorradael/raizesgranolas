@@ -9,12 +9,12 @@ const History: NextComponentType = () => {
         acompanhamento.
       </p>
       <p className={styles.history}>
-        Um ano depois foram criadas as granolas Raízes, feitas com ingredientes
+        Um ano depois, foram criadas as granolas Raízes, feitas com ingredientes
         selecionados e um sabor sem igual!
       </p>
       <p className={styles.border_left}>
         Sua aprovação foi tão grande que deixou de ser apenas a granola da casa
-        e hoje, está disponível para todo o Brasil.
+        e hoje está disponível para todo o Brasil.
       </p>
     </article>
   );
